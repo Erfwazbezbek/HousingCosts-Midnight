@@ -21,7 +21,7 @@ Undercoin	1000
 Apexis Crystal	4300
 Reservoir Anima	1500
 Twilight's Blade Insignia	175
-Honorbound Service Medal	850
+Honorbound Service Medal	850   <----- Apparently these are gone? but wowhead still has listed as currency
 Seafarer's Dubloon	250
 Ancient Mana	1600
 Honor	1000
@@ -768,3 +768,4 @@ Scribe's Fastened Quill	1
 }
 
 }
+

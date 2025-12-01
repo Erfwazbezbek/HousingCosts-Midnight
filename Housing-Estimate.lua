@@ -332,440 +332,422 @@ Windrunner Spire
 Zul'Aman
 }
 
--- Estimated Regent cost total (As of data on wowhead beta from Nov 30th 2025)
+-- Estimated Regent cost total (As of data on wowhead beta from Nov 30th 2025) (Recently updated with this data https://worldofwarcraft.blizzard.com/en-us/news/24247147)
 
 RegentCosts = {
-  Thalassian Lumber	1222
-Dragonpine Lumber	637
-Fel-Touched Lumber	594
-Dornic Fir Lumber	559
-Arden Lumber	532
-Bamboo Lumber	526
-Olemba Lumber	522
-Ironwood Lumber	506
-Coldwind Lumber	480
-Darkpine Lumber	476
-Shadowmoon Lumber	451
-Ashwood Lumber	451
-Demonsteel Bar	199
-Silverleaf Thread	188
-True Iron Ore	165
+Coldwind Lumber	20
+100 Spare Parts	2
+100 Year Soy Sauce	1
+Abyss Crystal	5
+Aerated Mana Potion	3
+Aerated Water	20
+Alchemical Catalyst	30
+Amber Tanning Oil	4
+Amberblaze	4
+Ambivalent Amber	12
+Ametrine	6
+Anchor Weed	3
+Ancient Mana Potion	30
+Angerseye	1
+Apricate Ink	13
+Aqirite	5
+Arcane Dust	44
+Arcanite Bar	20
+Arctic Fur	2
+Arden Lumber	1064
+Argulite	2
+Arkhana	12
+Aromatic Fish Oil	12
+Ashwood Lumber	902
+Astral Glory	10
+Auto-Hammer	1
+Awakened Air	1
+Awakened Earth	4
+Awakened Order	4
+Azharaâ€™s Veil	3
+Azj-Kahet Special	1
+Azureweave Bolt	1
+Bamboo Lumber	1052
+Basilisk Eggs	2
+Bismuth	33
+Black Dye	2
+Black Lotus	8
+Blackened Dragonscale	20
+Blackfallow Ink	22
+Blackrock Barbecue 5)	1
 Blackrock Ore	150
-Monelite Ore	149
-Sumptuous Fur	140
-Trillium Bar	125
-Storm Silver Ore	112
-Mote of Primal Energy	108
-Obsidium Bar	97
-Duskshrouded Stone	95
-Core Alloy	91
-Soul Cipher	90
-Roseate Pigment	90
-Raw Beast Hide	90
-Radiant Shard	85
-Perfect Preservatives	85
-Glimmering Gemdust	80
-Eversinging Dust	80
-Sallow Pigment	80
-Serevite Ore	71
-Song Gear	70
-Soul Sprocket	70
-Laestrite Ore	70
-Shal'dorei Silk	63
-Glittering Parchment	60
-Resilient Leather	60
-Dark Iron Bar	60
-Crystalline Glass	55
-Stonehide Leather	55
+Blazing Ink	23
+Blood of Sargeras	5
+Blood Spirit	4
+Blood-Stained Bone	12
+Blue Dye	6
+Bolt of Embersilk Cloth	20
+Bolt of Frostweave	6
+Bolt of Imbued Netherweave	4
+Bolt of Netherweave	4
+Bolt of Runecloth	20
+Bolt of Windwool Cloth	22
+Boundless Cipher	3
+Braised Bruffalon Brisket	4
+Calcified Bone	1
 Cerulean Pigment	53
-Mosswool Thread	52
-Spirit of Harmony	52
-Tidespray Linen	52
-Khaz'gorite Ore	51
+Chaos Circuit	1
+Chaos Crystal	16
+Chaos Orb	8
+Chaotic Spinel	2
+Charged Alloy	1
+Charred Hornswog Steaks	3
+Chemical Blasting Cap	15
+Chemirine	1
+Chopped Mycobloom	35
+Chronocloth Bolt	1
+Coal	20
+Coarse Leather	2
+Cobalt Bar	20
+Cobra Scales	4
+Codified Greenwood	10
+Coldwind Lumber	794
+Coldwind Lumber (	40
+Coldwind Lumber Lumber	30
+Core Alloy	34
+Coreforged Skeleton Key	1
+Course Leather	20
+Crazy Alchemistâ€™s Potion	5
+Crimson Ink	17
+Crystal Vial	16
+Crystalline Powder	11
+Cured Rugged Hide	2
+DalapeÃ±o Pepper	3
+Dark Iron Bar	60
+Dark Parchment	10
+Dark Rune	10
+Darkflame Ink	3
+Darkpine Lumber	952
+Deepstone Oil	14
+Delicate Arcanite Converter	12
+Demonsteel Bar	199
+Dense Stone	36
+Desecrated Oil	14
+Desolate Leather	26
+Devilsaur Leather	8
+Distilled Algari Freshwater	12
+Distilled Water	10
+Donric Fir Lumber	40
+Dornic Fir	156
+Dornic Fir Lumber	890
+Draconic Vial	1
+Draconium Ore	10
+Dragonâ€™s Eeye	4
+Dragonpine Lumber	904
+Dragonspine Lumber	314
+Dragonspine Lumber (18(	2
+Dreamcloth	2
+Dronic Fir Lumber	32
+Durable Flux	10
+Duskweave	6
+Earthstorm Diamond	2
+Electrified Ether	5
+Elementium Bar	26
+Ember Topaz	16
+Embersilk Cloth	10
+Embroidered Deep Sea Satin	16
+Enchanged Leather	8
+Enchanted Leather	4
+Enchanted Lightless Silk	20
+Energy Cell	9
+Entropy Enhance	10
+Essence of Earth	26
+Essence of Fire	4
+Essence of Rebirth	16
+Essence of Servitude	10
+Essence of Torment	1
+Essence of Undeath	44
+Essence of Valor	11
+Eternal Air	4
+Eternal Crystal	10
+Eternal Earth	6
+Eternal Fire	6
+Eternal Life	2
+Eternal Shadow	10
+Eternal Water	2
+Eternity Amber	1
+Eternium Thread	24
+Ethereal Ink	13
+Ethereal Shard	9
+Fel Iron Casing	4
+Felblight	15
+Felhide	5
+Felsteel Stabilizer	6
+Fel-Touched Lumber	1124
+Fel-Touched Lumber 10)	2
+Felwort	5
+Fiery Core	5
+Fiery Ink	6
+Five Flightâ€™s Grimoire	1
+Flaked Sea Salt	3
+Flask of Blinding Light	4
+Flourishing Ink	13
+Fractured Glass	7
+Frameless Lens	2
+Fresh Parchment	30
+Frost Lotus	8
+Frosteel Tube	1
+Frozen Orb	1
+Frozen Spellthread	2
+Galvanic Oscillator	1
+Gaunt Sinew	5
+Gem Chip	25
+Ghost Iron Bar	22
+Ghost Iron Bolts	28
+Gilded Vial	1
+Ginseng	10
+Gleaming Shard	4
+Glittering Glass	6
+Glittering Parchement	4
+Glittering Parchment	56
+Gloom Dust	15
+Glossy Stone	6
+Glowing Titan Orb	2
+Goblin-Machined Piston	2
+Golden Carp	10
+Golden Lotus	3
+Golden Pearl	2
+Gorgrond Grapes	6
+Greased-Up Gears	7
+Greater Cosmic Essence	9
+Greater Eternal Essence	20
+Greater Haste Taladite	1
+Greater Pearlescent Spellthread	2
+Greater Planar Essence	12
+Greater Planer Essence	8
+Green Tea Leaf	12
+Ground Nightshade	3
+Ground Widowbloom	4
+Gyrating Gear	12
+Handful of Bismuth Bolts	22
+Handful of Bolts	1
+Handful of Cobalt Bolts	14
+Handful of Fel Iron Bolts	18
+Handful of Laestrite Bolts	8
+Handful of Obsidium Bolts	14
+Handful of Serevite Bolts	12
+Hardened Adamantite Bar	19
+Hardened Adamantite Tube	3
+Hardened Elementium Bar	6
+Harmonious Horticulture	1
+Haunting Spirit	4
+Heavy Borean Leather	22
+Heavy Knothide Leather	12
+Heavy Savage Leather	20
+High-Explosive Gunpowder	30
+Highmountain Salmon	5
+Hypnotic Dust	6
 Icy Blasting Primers	50
+Imbued Silkweave	39
+Inferno Ink	22
+Infinite Dust	8
+Ink of Dreams	23
+Ink of the Sea	14
+Ink of the Sky	7
+Insulated Wiring	44
+Iridescent Ravioli with Apple Sauce	5
+Iridescent Water	20
+Ironclaw Ore	10
+Ironwood	60
+Ironwood Lumber	902
+Khazâ€™gorite Ore	30
+Khazgorite Ore	2
+Khorium Bar	30
+Khorium Power Core	6
+Laestrite Ore	70
+Laestrite Skeleton Key	1
+Large Brilliant Shard	14
+Large Opal	8
+Large Prismatic Shard	14
+Lava Core	10
+Leylight Shard	25
+Lichbloom	10
+Light Parchment	30
+Lightless Silk	8
+Living Ember	1
+Living Steel	7
+Loose Trigger	10
+Luminous Ink	39
+Luminous Shard	6
+Mad Alchemistâ€™s Potion	5
+Maelstrom Sapphire	1
+Magnificent Hide	14
+Majestic Zircon	1
+Master Mana Potion	5
+Mastery Taladite	1
+Meaty Haunch	15
+Mercurial Adamantite	9
+Mithril Filigree	12
+Monelite Ore	149
+Mooncloth	12
+Moonshroud	8
+Mortal Coiled Spring	6
+Mosswool Thread	52
+Mystic Sapphire	1
+Nightseye	3
+Nylon Thread	32
+Obsidium Bar	97
+Obsidium Skeleton Key	1
+Oil of Beledarâ€™s Grace	2
+Olemba Lumber	988
+Omnium Draconis	6
+Orb of Mystery	1
+Osmenite Ore	30
+Outsiderâ€™s Provisions	2
+Overcharged Capacitor	4
+Oversized Blasting Cap	15
+Owlseye	2
+Oxxein Ore	6
+Pallid Bone	20
+Pandemonite	2
+Pebbled Rock Salts	6
+Penumbra Thread	25
+Perfect Preservatives	95
+Perfect Preserves	15
+Phantasmal Haunch	6
+Platinum Ore	22
+Porous Polishing Abrasive	8
+Potion of Frozen Focus	5
+Powerful Ghostly Spellthread	4
+Primal Earth	14
+Primal Fire	14
+Primal Life	4
+Primal Mana	5
+Primal Molten Alloy	12
+Primal Mooncloth	6
+Primal Spirit	15
+Pristine Hide	4
+Profaned Tinderbox	4
+Purple Dye	2
+Queenâ€™s Ruby	1
+Rain Poppy	8
+Raw Beast Hide	90
+Red Dye	12
+Refulgent Crystal	8
+Reinforced Machine Chasis	9
+Reinforced Machine Chassis	4
+Requires: Fel-Touched Lumber	44
+Resonant Crystal	5
+Rice Flour	1
+Ringing Deeps Ingot	14
+River Onion	3
+Roasted Mycobloom	2
+Roseat Pigment	15
+Roseate Pigment	75
+Rot Resistant Cauldron	1
+Royal Ink	8
+Rugged Leather	12
+Rune Thread	16
+Runed Orb	10
+Runed Writhebark	2
+Runic Catgut	22
+Runic Healing Potion	10
+S.P.A.R.E. Crate	8
+Salad on the Side	5
+Sallow Pigment	80
+Savage Blood	15
+Savage Leather	12
+Scallions	50
+Scribeâ€™s Fastened Quill	1
 Scroll of Intellect IV	50
 Scroll of Intellect VI	50
-Titanium Bar	50
-Arcanoweave Bolt	48
-Sunfire Silk Bolt	48
-Shrouded Cloth	48
-Arcane Dust	44
-Insulated Wiring	44
-Essence of Undeath	44
-Codified Azeroot	43
-Sorcerous Fire	41
-Lexicologist's Vellum	40
-Volatile Water	40
-Luminous Ink	39
-Titansteel Bar	38
-Sterling Alloy	38
-Imbued Silkweave	38
-Soul Dust	38
-Dense Stone	36
-Evercore	35
-Aetherlume	35
-Chopped Mycobloom	35
-Bismuth	33
-Light Parchment	32
-Nylon Thread	32
-Ultramarine Ink	31
-Handful of Bismuth Bolts	31
-Ancient Mana Potion	30
-Fresh Parchment	30
-Osmenite Ore	30
-Alchemical Catalyst	30
-Tranquil Ink	30
-Tempest Hide	30
-Starlight Ink	30
-High-Explosive Gunpowder	30
-Khorium Bar	30
-Ghost Iron Bolts	28
-Essence of Earth	28
-Blazing Ink	27
-Leylight Shard	27
-Sorcerous Earth	26
-Solenium Ore	26
-Elementium Bar	26
-Volatile Air	26
-Desolate Leather	26
-Dawn Crystal	25
-Penumbra Thread	25
-Truesilver Bar	24
-Composite Flora	24
-Eternium Thread	24
-Glossy Stone	24
-Wondrous Synergist	24
-Mote of Pure Void	24
-Ink of Dreams	23
-Ghost Iron Bar	22
-Inferno Ink	22
-Heavy Borean Leather	22
-Platinum Ore	22
-Blackfallow Ink	22
-Runic Catgut	22
-Fantastic Fur	22
-Bolt of Windwool Cloth	22
-Coarse Leather	22
-Arcanite Bar	20
-Aerated Water	20
-Bolt of Embersilk Cloth	20
-Iridescent Water	20
-Star Ruby	20
-Enchanted Lightless Silk	20
-Cobalt Bar	20
-Yellow Dye	20
-Gem Chip	20
-Greater Eternal Essence	20
-Bolt of Runecloth	20
-Coal	20
-Greater Planar Essence	20
-Luminant Flux	20
-Sylvan Elixir	20
-Unbroken Claw	20
-Heavy Savage Leather	20
-Blackened Dragonscale	20
-Wildercloth Bolt	20
-Pallid Bone	20
-Snowfall Ink	19
-Handful of Fel Iron Bolts	18
-Sorcerous Water	18
-Crystal Vial	18
-Gloaming Alloy	18
-Crimson Ink	17
-Temporal Crystal	17
-Rune Thread	16
-Volatile Earth	16
-Handful of Cobalt Bolts	16
-Mote of Light	16
-Mote of Wild Magic	16
-Ember Topaz	16
-Essence of Rebirth	16
-Spellweave	16
-Embroidered Deep Sea Satin	16
-Chaos Crystal	16
-Twilight Bark	15
-Meaty Haunch	15
-Hardened Adamantite Bar	15
-Chemical Blasting Cap	15
-Sha Crystal	15
-Savage Blood	15
-Shadowghast Ingot	15
-Gloom Dust	15
-Felblight	15
-Enchanted Elethium Bar	15
-Primal Spirit	15
-Oversized Blasting Cap	15
-Primal Fire	14
-Large Brilliant Shard	14
-Crushed Gemstones	14
-Desecrated Oil	14
-Large Prismatic Shard	14
-Ink of the Sea	14
-Ringing Deeps Ingot	14
-Handful of Obsidium Bolts	14
-Magnificent Hide	14
-Deepstone Oil	14
-Primal Earth	14
-Serene Ink	13
-Flourishing Ink	13
-Ethereal Ink	13
-Apricate Ink	13
-Aromatic Fish Oil	13
-Green Tea Leaf	12
-Essence of Valor	12
-Thorium Bar	12
-Spool of Wilderthread	12
-Handful of Serevite Bolts	12
-Enchanted Leather	12
-Delicate Arcanite Converter	12
-Sorcerous Air	12
-Heavy Knothide Leather	12
-Primal Molten Alloy	12
-Rugged Leather	12
-Savage Leather	12
-Arkhana	12
-Mithril Filigree	12
-Ambivalent Amber	12
-Mooncloth	12
-Blood-Stained Bone	12
-Wildercloth	12
-Gyrating Gear	12
-Red Dye	12
-Distilled Algari Freshwater	12
-Crystalline Powder	11
-Sinvyr Ore	11
-Eternal Crystal	10
-Stranglekelp	10
-Umbral Ink	10
-Ginseng	10
-Distilled Water	10
-Durable Flux	10
-Majestic Hide	10
-Runic Healing Potion	10
-Azeroot	10
-Dense Hide	10
-Codified Greenwood	10
-Dark Parchment	10
-Astral Glory	10
-Dark Rune	10
-Thalassian Songwater	10
-Lava Core	10
-Eternal Shadow	10
-Wildfowl Breast	10
-Runed Orb	10
-Spiced Meat Stock	10
-Golden Carp	10
-Embersilk Cloth	10
-Draconium Ore	10
-Lichbloom	10
-Loose Trigger	10
-Ethereal Shard	9
-Greater Cosmic Essence	9
-Mercurial Adamantite	9
-Black Lotus	8
-Large Opal	8
-Infinite Dust	8
-Handful of Laestrite Bolts	8
-Devilsaur Leather	8
-Refulgent Crystal	8
-Royal Ink	8
-Chaos Orb	8
-Moonshroud	8
-Froststeel Tube	8
-Shadow Ink	8
-Lightless Silk	8
-Rain Poppy	8
-Overcharged Capacitor	8
-Thick Clefthoof Leather	8
-Frost Lotus	8
-Maelstrom Crystal	8
-Essence of Servitude	8
 Sea Stalk	8
-Mana Thistle	7
-Ink of the Sky	7
-Fractured Glass	7
-Carving Canine	7
-Whimsical Wiring	7
-Living Steel	7
-Hypnotic Dust	6
-Carapace-Backed Hide	6
-Mortal Coiled Spring	6
-Gorgrond Grapes	6
-Phantasmal Haunch	6
-Hardened Elementium Bar	6
-Vibrant Shard	6
-Khorium Power Core	6
-Blue Dye	6
-Netherbloom	6
-Glittering Glass	6
-Thorium Widget	6
-Felsteel Stabilizer	6
-Bolt of Frostweave	6
-Oxxein Ore	6
-Primal Mooncloth	6
-Void Crystal	6
-Duskweave	6
-Stormcharged Leather	6
-Fiery Ink	6
-Weavercloth Bolt	6
 Sealing Wax	6
-Pebbled Rock Salts	6
-Ametrine	6
-Illimited Diamond	6
-Omnium Draconis	6
-Eternal Earth	6
-Luminous Shard	6
-Highmountain Salmon	5
-Mad Alchemist's Potion	5
-Felwort	5
-Blood of Sargeras	5
-Fiery Core	5
-Spiced Snapper	5
-Volatile Life	5
-Peerless Plumage	5
-Whiptail	5
-Resonant Crystal	5
-Blackrock Barbecue	5
-Electrified Ether	5
-Salad on the Side	5
-Marbled Stone	5
-Telmor-Aruuna Hard Cheese	5
-Master Mana Potion	5
-Crazy Alchemist's Potion	5
-Abyss Crystal	5
-Terocone	5
-Potion of Frozen Focus	5
-Wild Dragon Fruit	5
-Felhide	5
-Ironclaw Ore	5
-Umbryl	5
-Gaunt Sinew	5
-Energy Cell	5
-Primal Mana	5
-Iridescent Ravioli with Apple Sauce	5
-Profaned Tinderbox	4
-Amberblaze	4
-Haunting Spirit	4
-Blood Spirit	4
-Primal Life	4
-Awakened Order	4
-Amber Tanning Oil	4
-Bolt of Imbued Netherweave	4
-Thrice-Spiced Mammoth Kabob	4
-Gleaming Shard	4
-Umbra Shard	4
-Bolt of Netherweave	4
-Cobra Scales	4
-Braised Bruffalon Brisket	4
-Reinforced Machine Chassis	4
+Serene Ink	13
+Serevite Ore	37
+Serpentâ€™s Eye	2
+Sha Crystal	15
+Shadow Ink	7
 Shadowcloth	4
-Stunning Sapphire	4
-Essence of Fire	4
-Thorium Tube	4
-Shock-Spring Coil	4
-Fel Iron Casing	4
-Skyflare Diamond	4
-Porous Polishing Abrasive	4
-Skystone	4
-Powerful Ghostly Spellthread	4
-Spellcloth	4
-Awakened Earth	4
-Ground Widowbloom	4
-Pristine Hide	4
-Eternal Air	4
-Flask of Blinding Light	4
-Windwool Cloth	4
-Dragon's Eye	4
-River Onion	3
-Volatile Fire	3
-Slumbering Soul Serum	3
-Ground Nightshade	3
-Charred Hornswog Steaks	3
+Shadowghast Ingot	15
+Shadowmoon Lumber	902
 Shadowruby	3
-Scalewoven Hide	3
-Boundless Cipher	3
-Hardened Adamantite Tube	3
-Golden Lotus	3
-Darkflame Ink	3
-Azshara's Veil	3
-Flaked Sea Salt	3
-Nightseye	3
-Anchor Weed	3
-Felweed	3
-Kalidescopic Prism	3
-Aerated Mana Potion	3
-Eternal Fire	3
-Basilisk Eggs	2
-Dreamcloth	2
 Shadowsong Amethyst	2
-Frameless Lens	2
-Viridian Charmcap	2
-Living Ember	2
-Goblin-Machined Piston	2
-Black Dye	2
-Majestic Claw	2
-Sporecoated Hide	2
+Shalâ€™dorei Silk	63
+Shock-Spring Coil	4
+Shrouded Cloth	48
+Sinvyr Ore	11
 Skyfire Diamond	2
-Eternal Life	2
-Golden Pearl	2
+Skyflare Diamond	4
+Skystone	4
+Slumbering Soul Serum	3
+Snowfall Ink	19
+Solenium Ore	26
+Sorcerious Earth	6
+Sorcerous Air	12
+Sorcerous Earth	20
+Sorcerous Fire	41
+Sorcerous Water	18
+Soul Dust	38
+Spellcloth	4
+Spellweave	16
+Spiced Meat Stock	10
+Spiced Snapper	5
+Spirit of Harmony	54
+Spool of Wilderthread	12
+Star Ruby	20
+Starlight Ink	30
 Starlight Rose	2
-Mireslush Hide	2
-Arctic Fur	2
-Runed Writhebark	2
-Eternal Water	2
-Argulite	2
-Serpent's Eye	2
-Fel Lotus	2
-Cured Rugged Hide	2
-Coreforged Skeleton Key	2
-Oil of Beledar's Grace	2
-Veiled Crystal	2
-Glowing Titan Orb	2
-Roasted Mycobloom	2
-Chaotic Spinel	2
-Weavercloth	2
-Outsider's Provisions	2
-Purple Dye	2
-Earthsiege Diamond	2
-Greater Pearlescent Spellthread	2
-Owlseye	2
-Pandemonite	2
-Essence of Torment	1
-Calcified Bone	1
-Charged Alloy	1
-Chemirine	1
-Queen's Ruby	1
-Rot Resistant Cauldron	1
-Obsidium Skeleton Key	1
-Mystic Sapphire	1
+Stonehide Leather	55
+Storm Silver	8
+Storm Silver Ore	104
+Stormcharged Leather	2
 Straddling Jewel Doublet	1
-Laestrite Skeleton Key	1
+Stranglekelp	10
 Straszan Mark	1
-Chronocloth Bolt	1
-100 Year Soy Sauce	1
-Auto-Hammer	1
-Azureweave Bolt	1
-Majestic Fin	1
-Draconic Vial	1
-Awakened Air	1
-Rice Flour	1
-Orb of Mystery	1
-Five Flights' Grimoire	1
-Majestic Zircon	1
-Angerseye	1
-Inferno Ruby	1
-Azj-Kahet Special	1
-Harmonious Horticulture	1
-Inverted Prism	1
-Chaos Circuit	1
-Mastery Taladite	1
+Stunning Sapphire	4
+Sumptuous Fur	140
+Sundered Onyx	1
+Sylvan Elixir	20
+Telmor-Aruuna Hard Cheese	5
+Tempest Hide	30
+Temporal Crystal	17
+Thick Clefthoof Leather	8
+Thorium Bar	12
+Thorium Tube	4
+Thorium Widget	6
+Thrice-Spiced Mammoth Kabob	4
+Tidespray Linen	52
+Titanium Bar	30
+Titansteel Bar	38
+Tranquil Ink	30
+Trillium Bar	125
+True Iron Ore	165
+Truesilver Bar	24
+Twilight Bark	19
+Ultramarine Ink	31
+Umbra Shard	4
+Umbral Ink	10
+Umbryl	5
+Unbroken Claw	20
+Various Crushed Herbs	1
+Veiled Crystal	2
 Vial of Kaheti Oils	1
-Greater Haste Taladite	1
 Vibrant Emerald	1
-Thunderous Hide	1
-Gilded Vial	1
-Scribe's Fastened Quill	1
+Vibrant Shard	6
+Viridian Charmcap	2
+Void Crystal	6
+Volatile Air	6
+Volatile Earth	16
+Volatile Fire	3
+Volatile Life	5
+Volatile Water	40
+Weavercloth	2
+Weavercloth Bolt	6
+Whimsical Wiring	6
+Whiptail	5
+Wild Dragon Fruit	5
+Wildercloth	12
+Wildercloth Bolt	20
+Wildfowl Breast	10
+Windwool Cloth	4
+Yellow Dye	20
 }
 
-}
+
 

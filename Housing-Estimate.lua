@@ -8,754 +8,763 @@
 -- Estimated Currency that will be used to buy from vendor (As of data on wowhead beta from Nov 30th 2025)
 
 VendorCosts = {
-  ["Gold"] = 312573,
-  ["Order Resources"] = 47975,
-  ["Community Cupons"] = 75,
-  ["Resonance Crystals"] = 26325,
-  ["Voidlight Marl"] = 26053,
-  ["Dragon Isles Supplies"] = 6260,
-  ["Veiled Argunite"] = 100,
-  ["Garrison Resources"] = 9350,
-  ["War Resources"] = 9125,
-  ["Undercoin"] = 1000,
-  ["Apexis Crystal"] = 4300,
-  ["Reservoir Anima"] = 1500,
-  ["Twilight's Blade Insignia"] = 175,
-  ["Honorbound Service Medal"] = 850,
-  ["Seafarer's Dubloon"] = 250,
-  ["Ancient Mana"] = 1600,
-  ["Honor"] = 1000,
-  ["Brimming Arcana"] = 1050,
-  ["Mysterious Fragment"] = 7000
+Gold	312573
+Order Resources	47975
+Community Cupons	75
+Resonance Crystals	26325
+Voidlight Marl	26053
+Dragon Isles Supplies	6260
+Veiled Argunite	100
+Garrison Resources	9350
+War Resources	9125
+Undercoin	1000
+Apexis Crystal	4300
+Reservoir Anima	1500
+Twilight's Blade Insignia	175
+Honorbound Service Medal	850
+Seafarer's Dubloon	250
+Ancient Mana	1600
+Honor	1000
+Brimming Arcana	1050
+Mysterious Fragment	7000
 }
 
 
 -- Estimated Achievments that will award deecor (As of data on wowhead beta from Nov 30th 2025)
 
 Achievements = {
-  "The Slayer's Campaign",
-  "Full Caravan",
-  "Good Suramaritan",
-  "The Farseer's Campaign",
-  "Reclamation of Gilneas",
-  "Hidden Potential of the Deathlord",
-  "Legendary Research of the Illidari",
-  "Drum Circle",
-  "Got to Ketchum All",
-  "Treasures of Highmountain",
-  "Battle for Gilneas Victory",
-  "Champion in Battle",
-  "Duel-icious",
-  "Entering Battle",
-  "Expert in Battle",
-  "Master in Battle",
-  "Master of Temple of Kotmogu",
-  "Proficient in Battle",
-  "Progressing in Battle",
-  "Storm Capper",
-  "Stormtrooper",
-  "Diversified Investments",
-  "Junkyard Apprentice",
-  "Junkyard Scavenger",
-  "M.C., Hammered",
-  "Argussian Reach",
-  "Broken Isles Dungeoneer",
-  "Broken Isles World Quests V",
-  "Court of Farondis",
-  "Defending the Broken Isles III",
-  "Dreamweavers",
-  "Heroic Broken Isles World Quests III",
-  "Highmountain Tribe",
-  "Legion Remix Raids",
-  "Power of the Obelisks II",
-  "The Armies of Legionfall",
-  "The Nightfallen",
-  "The Wardens",
-  "Timeworn Keystone Master",
-  "Valarjar",
-  "Hidden Potential of the Archdruid",
-  "Legendary Research of the Dreamgrove",
-  "Raise an Army for the Dreamgrove",
-  "The Archdruid's Campaign",
-  "Jewelcrafting at Midnight",
-  "One Rank Higher",
-  "Azeroth at War: After Lordaeron",
-  "Azeroth at War: Kalimdor on Fire",
-  "Azeroth at War: The Barrens",
-  "Ready for War",
-  "Hidden Potential of the Grandmaster",
-  "Legendary Research of Five Dawns",
-  "Raise an Army for the Temple of Five Dawns",
-  "The Grandmaster's Campaign",
-  "Prey: A Different Kind of Void (Hard)",
-  "Prey: A Different Kind of Void (Nightmare)",
-  "Prey: A Thorn in the Side (Hard)",
-  "Prey: A Thorn in the Side (Nightmare)",
-  "Prey: Ancient Power (Hard)",
-  "Prey: Ancient Power (Nightmare)",
-  "Prey: Shadow of the Moon (Hard)",
-  "Prey: Shadow of the Moon (Nightmare)",
-  "Prey: The Lost Brother (Hard)",
-  "Prey: The Lost Brother (Nightmare)",
-  "Prey: War of the Deep (Hard)",
-  "Prey: War of the Deep (Nightmare)",
-  "Heroic Court of Stars",
-  "Mythic+ Court of Stars",
-  "Heroic Black Rook Hold",
-  "Mythic+ Black Rook Hold",
-  "Heroic Darkheart Thicket",
-  "Mythic+ Darkheart Thicket",
-  "Heroic Eye of Azshara",
-  "Mythic+ Eye of Azshara",
-  "Heroic Halls of Valor",
-  "Mythic+ Halls of Valor",
-  "Heroic Maw of Souls",
-  "Mythic+ Maw of Souls",
-  "Heroic Neltharion's Lair",
-  "Mythic+ Neltharion's Lair",
-  "Heroic The Arcway",
-  "Mythic+ The Arcway",
-  "Heroic Vault of the Wardens",
-  "Mythic+ Vault of the Wardens",
-  "Heroic Assault on Violet Hold",
-  "Mythic+ Assault on Violet Hold",
-  "Heroic Cathedral of Eternal Night",
-  "Mythic+ Cathedral of Eternal Night",
-  "Heroic The Seat of the Triumvirate",
-  "Mythic+ The Seat of the Triumvirate",
-  "Mythic+ Return to Karazhan",
-  "Heroic Lower Karazhan",
-  "Heroic Upper Karazhan",
-  "Mythic+ Lower Karazhan",
-  "Mythic+ Upper Karazhan",
-  "The Sunken Tomb (Hard)",
-  "The Sunken Tomb (Nightmare)",
-  "The Underbog (Hard)",
-  "The Underbog (Nightmare)",
-  "War of the Tides (Hard)",
-  "War of the Tides (Nightmare)",
-  "The Shadowlands: A Time for War",
-  "The Shadowlands: An End to the Fighting",
-  "The Shadowlands: Honor Points",
-  "The Shadowlands: Killed in Action",
-  "The Shadowlands: War-Torn",
-  "The Shadowlands: Wrecking Ball",
-  "To the Rescue",
-  "Hidden Potential of the Deathlord",
-  "Legendary Research of the Ebon Blade",
-  "Raise an Army for Acherus",
-  "The Deathlord's Campaign",
-  "Heroic Temple of Sethraliss",
-  "Mythic+ Temple of Sethraliss",
-  "Heroic The Motherlode",
-  "Mythic+ The Motherlode",
-  "The Gilded Hand",
-  "A Fish in the Hand",
-  "Fishing at Midnight",
-  "Hidden Potential of the Battlelord",
-  "Legendary Research of the Valarjar",
-  "Raise an Army for Skyhold",
-  "The Battlelord's Campaign",
-  "Blacksmithing at Midnight",
-  "Heroic Kings' Rest",
-  "Mythic+ Kings' Rest",
-  "Heroic Siege of Boralus",
-  "Mythic+ Siege of Boralus",
-  "Heroic Atal'Dazar",
-  "Mythic+ Atal'Dazar",
-  "A Good Start",
-  "Diplomat of the Alliance",
-  "Explorer of Kul Tiras",
-  "Feats of the Fray",
-  "Hero of the Alliance",
-  "Island Hopping",
-  "Kul Tiras and Zandalar Diplomat",
-  "Kul Tiras and Zandalar Explorer",
-  "The Kul Tiran Campaign",
-  "The Pride of Kul Tiras",
-  "Wide World of Quests",
-  "WoW's 15th Anniversary",
-  "Hidden Potential of the Vindicator",
-  "Legendary Research of the Silver Hand",
-  "Raise an Army for Sanctum of Light",
-  "The Vindicator's Campaign",
-  "Mining at Midnight",
-  "Archaeology at Midnight",
-  "The Argus Campaign",
-  "Uniting the Isles",
-  "Come Sail Away",
-  "The Long Con",
-  "The Pride of Kul Tiras",
-  "Frontline Warrior",
-  "The Snows of Northrend",
-  "Cooking at Midnight",
-  "Alterac Grave Robber",
-  "Me and the Cappin' Makin' It Happen",
-  "Persistent Defender",
-  "Wrecking Ball",
-  "Secrets of Skettis",
-  "That's Val'sharah Folks!",
-  "Treasures of Val'sharah",
-  "A Blue Dawn",
-  "Sojourner of Undermine",
-  "Dune Rider",
-  "Loa Expectations",
-  "Paku'ai",
-  "Professional Zandalari Master",
-  "Raptari Rider",
-  "The Zandalari Menu",
-  "Zandalar Forever!",
-  "Back from the Beyond",
-  "Engineering at Midnight",
-  "Leatherworking at Midnight",
-  "Herbalism at Midnight",
-  "More Dots!"
+  Achievment
+The Slayer's Campaign
+Full Caravan
+Good Suramaritan
+The Farseer's Campaign
+Reclamation of Gilneas
+Hidden Potential of the Deathlord
+Legendary Research of the Illidari
+Drum Circle
+Got to Ketchum All
+Treasures of Highmountain
+(blank)
+Battle for Gilneas Victory
+Champion in Battle
+Duel-icious
+Entering Battle
+Expert in Battle
+Master in Battle
+Master of Temple of Kotmogu
+Proficient in Battle
+Progressing in Battle
+Storm Capper
+Stormtrooper
+Diversified Investments
+Junkyard Apprentice
+Junkyard Scavenger
+M.C., Hammered
+Argussian Reach
+Broken Isles Dungeoneer
+Broken Isles World Quests V
+Court of Farondis
+Defending the Broken Isles III
+Dreamweavers
+Heroic Broken Isles World Quests III
+Highmountain Tribe
+Legion Remix Raids
+Power of the Obelisks II
+The Armies of Legionfall
+The Nightfallen
+The Wardens
+Timeworn Keystone Master
+Valarjar
+Hidden Potential of the Archdruid
+Legendary Research of the Dreamgrove
+Raise an Army for the Dreamgrove
+The Archdruid's Campaign
+Jewelcrafting at Midnight
+One Rank Higher
+Azeroth at War: After Lordaeron
+Azeroth at War: Kalimdor on Fire
+Azeroth at War: The Barrens
+Ready for War
+Hidden Potential of the Grandmaster
+Legendary Research of Five Dawns
+Raise an Army for the Temple of Five Dawns
+The Grandmaster's Campaign
+Prey: A Different Kind of Void (Hard)
+Prey: A Different Kind of Void (Nightmare)
+Prey: A Thorn in the Side (Hard)
+Prey: A Thorn in the Side (Nightmare)
+Prey: Anger Management (Hard)
+Prey: Anger Management (Nightmare)
+Prey: Blinded By The Light (Hard)
+Prey: Blinded By The Light (Nightmare)
+Prey: Bloody Green Thumbs (Hard)
+Prey: Bloody Green Thumbs (Nightmare)
+Prey: Breaking the Blade (Hard)
+Prey: Breaking the Blade Nightmare)
+Prey: Chasing Death (Hard)
+Prey: Chasing Death (Nightmare)
+Prey: Dominating the Void (Hard)
+Prey: Dominating the Void (Nightmare)
+Prey: Ethereal Assassins (Hard)
+Prey: Ethereal Assassins (Nightmare)
+Prey: Insane Inventors (Hard)
+Prey: Insane Inventors (Nightmare)
+Prey: Mad Magisters (Hard)
+Prey: Mad Magisters (Nightmare)
+Prey: No Rest for the Wretched (Hard)
+Prey: No Rest for the Wretched (Nightmare)
+Prey: Outsmarting the Schemers (Hard)
+Prey: Outsmarting the Schemers (Nightmare)
+Prey: Sadistic Shamans (Hard)
+Prey: Sadistic Shamans (Nightmare)
+Prey: The Fallen Farstriders (Hard)
+Prey: The Fallen Farstriders (Nightmare)
+Grand Fin-ale
+Blood in the Snow
+Kings Under the Mountain
+Tailoring at Midnight
+Hidden Potential of the Highlord
+Legendary Research of the Silver Hand
+Raise an Army for the Sanctum of Light
+The Highlord's Campaign
+Blacksmithing at Midnight
+A World Awoken
+Hidden Potential of the Slayer
+Raise an Army for the Fel Hammer
+Hidden Potential of the Farseer
+Legendary Research of the Maelstrom
+Raise an Army for the Maelstrom
+Professional Algari Master
+Rocked to Sleep
+Sojourner of Isle of Dorn
+We're Here All Night
+Hidden Potential of the Netherlord
+Legendary Research of the Black Harvest
+Raise an Army for the Dreadscar Rift
+The Netherlord's Campaign
+Mining at Midnight
+(blank)
+Ever Painting
+Fringe Benefits
+Hidden Potential of the Archmage
+Legendary Research of the Tirisgarde
+Raise an Army for the Hall of the Guardian
+The Archmage's Campaign
+The Green Hills of Stranglethorn
+Insurrection
+Forbidden Spoils
+Slate of the Union
+Master of Twin Peaks
+Overly Defensive
+The Grim Reaper
+Tower Defense
+Warsong Gulch Veteran
+Hidden Potential of the Shadowblade
+Legendary Research of the Uncrowned
+Raise an Army for the Hall of Shadows
+The Shadowblade's Campaign
+Lorewalking: Blade's Bane
+Lorewalking: Ethereal Wisdom
+Lorewalking: The Elves of Quel'thalas
+Lorewalking: The Lich King
+Inscribing at Midnight
+Enchanting at Midnight
+Alchemizing at Midnight
+Hidden Potential of the High Priest
+Legendary Research of the Netherlight Conclave
+Raise an Army for the Netherlight Temple
+The High Priest's Campaign
+(blank)
+Fishing at Midnight
+Hidden Potential of the Huntmaster
+Legendary Research of the Unseen Path
+Raise an Army for the Trueshot Lodge
+The Huntmaster's Campaign
+Come Sail Away
+The Long Con
+The Pride of Kul Tiras
+Frontline Warrior
+The Snows of Northrend
+Hidden Potential of the Battlelord
+Legendary Research of the Valarjar
+Raise an Army for Skyhold
+The Battlelord's Campaign
+Legendary Research of the Ebon Blade
+Raise an Army for Acherus
+The Deathlord's Campaign
+Cooking at Midnight
+Alterac Grave Robber
+Me and the Cappin' Makin' It Happen
+Persistent Defender
+Wrecking Ball
+Secrets of Skettis
+That's Val'sharah Folks!
+Treasures of Val'sharah
+A Blue Dawn
+(blank)
+(blank)
+Sojourner of Undermine
+Dune Rider
+Loa Expectations
+Paku'ai
+Professional Zandalari Master
+Raptari Rider
+The Zandalari Menu
+Zandalar Forever!
+Back from the Beyond
+Engineering at Midnight
+Leatherworking at Midnight
+Herbalism at Midnight
+More Dots! (25 player)
+Skinning at Midnight
+Smelling History
+Worldsoul-Searching
 }
 
 -- Estimated Quests that will award deecor (As of data on wowhead beta from Nov 30th 2025)
 
 QuestZones = {
-  ["Amirdrassil"] = 4,
-  ["Azshara"] = 1,
-  ["Azsuna"] = 1,
-  ["Blackrock Depths"] = 1,
-  ["Blasted Lands"] = 2,
-  ["Boralus"] = 8,
-  ["Borean Tundra"] = 2,
-  ["Burning Steppes"] = 2,
-  ["Dalaran"] = 3,
-  ["Dazar'alor"] = 2,
-  ["Dornogal"] = 3,
-  ["Durotar"] = 1,
-  ["Duskwood"] = 4,
-  ["Dustwallow Marsh"] = 1,
-  ["Elwynn Forest"] = 4,
-  ["Emerald Dream"] = 1,
-  ["Felwood"] = 2,
-  ["Founder's Point"] = 100,
-  ["Frostfire Ridge"] = 1,
-  ["Frostwall"] = 1,
-  ["Gilneas"] = 2,
-  ["Grizzly Hills"] = 1,
-  ["Highmountain"] = 23,
-  ["Ironforge"] = 1,
-  ["Isle of Dorn"] = 8,
-  ["Krokuun"] = 3,
-  ["Kun-Lai Summit"] = 2,
-  ["Loch Modan"] = 2,
-  ["Lunarfall"] = 18,
-  ["Mechagon"] = 3,
-  ["Nagrand"] = 1,
-  ["Nazmir"] = 4,
-  ["Razorwind Shores"] = 95,
-  ["Searing Gorge"] = 3,
-  ["Shadowmoon Valley"] = 6,
-  ["Silverpine Forest"] = 2,
-  ["Spires of Arak"] = 8,
-  ["Stormheim"] = 1,
-  ["Stormshield"] = 7,
-  ["Stormsong Valley"] = 7,
-  ["Stormwind City"] = 17,
-  ["Suramar"] = 15,
-  ["Talador"] = 3,
-  ["Thaldraszus"] = 2,
-  ["The Azure Span"] = 2,
-  ["The Great Sea"] = 1,
-  ["The Great Seal"] = 7,
-  ["The Jade Forest"] = 2,
-  ["The Ringing Deeps"] = 13,
-  ["The Waking Shores"] = 3,
-  ["Thunder Bluff"] = 2,
-  ["Thunder Totem"] = 12,
-  ["Tiragarde Sound"] = 5,
-  ["Twilight Highlands"] = 4,
-  ["Undercity"] = 1,
-  ["Undermine"] = 14,
-  ["Valdrakken"] = 7,
-  ["Vale of Eternal Blossoms"] = 5,
-  ["Valley of the Four Winds"] = 2,
-  ["Val'sharah"] = 13,
-  ["Vashj'ir"] = 2,
-  ["Vol'dun"] = 1,
-  ["Wastewander Camp"] = 1,
-  ["Winterspring"] = 1,
-  ["Zangarmarsh"] = 1,
-  ["Zuldazar"] = 10
+  Zone	Quantity
+Amirdrassil	4
+Azshara	1
+Azsuna	1
+Blackrock Depths	1
+Blasted Lands	2
+Boralus	8
+Borean Tundra	2
+Burning Steppes	2
+Dalaran	3
+Dazar'alor	2
+Dornogal	3
+Durotar	1
+Duskwood	4
+Dustwallow Marsh	1
+Elwynn Forest	4
+Emerald Dream	1
+Felwood	2
+Founder's Point	100
+Frostfire Ridge	1
+Frostwall	1
+Gilneas	2
+Grizzly Hills	1
+Highmountain	23
+Ironforge	1
+Isle of Dorn	8
+Krokuun	3
+Kun-Lai Summit	2
+Loch Modan	2
+Lunarfall	18
+Mechagon	3
+Nagrand	1
+Nazmir	4
+Razorwind Shores	95
+Searing Gorge	3
+Shadowmoon Valley	6
+Silverpine Forest	2
+Spires of Arak	8
+Stormheim	1
+Stormshield	7
+Stormsong Valley	7
+Stormwind City	17
+Suramar	15
+Talador	3
+Thaldraszus	2
+The Azure Span	2
+The Great Sea	1
+The Great Seal	7
+The Jade Forest	2
+The Ringing Deeps	13
+The Waking Shores	3
+Thunder Bluff	2
+Thunder Totem	12
+Tiragarde Sound	5
+Twilight Highlands	4
+Undercity	1
+Undermine	14
+Valdrakken	7
+Vale of Eternal Blossoms	5
+Valley of the Four Winds	2
+Val'sharah	13
+Vol'dun	2
+Westfall	3
+Zuldazar	10
 }
 
 -- Estimated Zones that will drop deecor (As of data on wowhead beta from Nov 30th 2025)
 
 DropZones = {
-  "Algeth'ar Academy",
-  "Auchindoun",
-  "Blackrock Depths",
-  "Cinderbrew Meadery",
-  "Court of Stars",
-  "Crucible of Storms",
-  "Darkflame Cleft",
-  "Darkheart Thicket",
-  "Freehold",
-  "Iron Docks",
-  "Isle of Quel'Danas",
-  "Magisters' Terrace",
-  "Maisara Caverns",
-  "Murder Row",
-  "Neltharion's Lair",
-  "Neltharus",
-  "Nexus-Point Xenas",
-  "Operation: Mechagon",
-  "Pit of Saron",
-  "Priory of the Sacred Flame",
-  "Return to Karazhan",
-  "Ruby Life Pools",
-  "Shadowfang Keep",
-  "Shrine of the Storm",
-  "Siege of Orgrimmar",
-  "Skyreach",
-  "Temple of the Jade Serpent",
-  "The Blinding Vale",
-  "The Deadmines",
-  "The Dreamrift",
-  "The Nighthold",
-  "The Seat of the Triumvirate",
-  "The Voidspire",
-  "Upper Blackrock Spire",
-  "Voidscar Arena",
-  "Windrunner Spire",
-  "Zul'Aman"
+  Algeth'ar Academy
+Auchindoun
+Blackrock Depths
+Cinderbrew Meadery
+Court of Stars
+Crucible of Storms
+Darkflame Cleft
+Darkheart Thicket
+Freehold
+Iron Docks
+Isle of Quel'Danas
+Magisters' Terrace
+Maisara Caverns
+Murder Row
+Neltharion's Lair
+Neltharus
+Nexus-Point Xenas
+Operation: Mechagon
+Pit of Saron
+Priory of the Sacred Flame
+Return to Karazhan
+Ruby Life Pools
+Shadowfang Keep
+Shrine of the Storm
+Siege of Orgrimmar
+Skyreach
+Temple of the Jade Serpent
+The Blinding Vale
+The Deadmines
+The Dreamrift
+The Nighthold
+The Seat of the Triumvirate
+The Voidspire
+Upper Blackrock Spire
+Voidscar Arena
+Windrunner Spire
+Zul'Aman
 }
 
 -- Estimated Regent cost total (As of data on wowhead beta from Nov 30th 2025)
 
 RegentCosts = {
-  ["Thalassian Lumber"] = 1222,
-  ["Dragonpine Lumber"] = 637,
-  ["Fel-Touched Lumber"] = 594,
-  ["Dornic Fir Lumber"] = 559,
-  ["Arden Lumber"] = 532,
-  ["Bamboo Lumber"] = 526,
-  ["Olemba Lumber"] = 522,
-  ["Ironwood Lumber"] = 506,
-  ["Coldwind Lumber"] = 480,
-  ["Darkpine Lumber"] = 476,
-  ["Shadowmoon Lumber"] = 451,
-  ["Ashwood Lumber"] = 451,
-  ["Demonsteel Bar"] = 199,
-  ["Silverleaf Thread"] = 188,
-  ["True Iron Ore"] = 165,
-  ["Blackrock Ore"] = 150,
-  ["Monelite Ore"] = 149,
-  ["Sumptuous Fur"] = 140,
-  ["Trillium Bar"] = 125,
-  ["Storm Silver Ore"] = 112,
-  ["Mote of Primal Energy"] = 108,
-  ["Obsidium Bar"] = 97,
-  ["Duskshrouded Stone"] = 95,
-  ["Core Alloy"] = 91,
-  ["Soul Cipher"] = 90,
-  ["Roseate Pigment"] = 90,
-  ["Raw Beast Hide"] = 90,
-  ["Radiant Shard"] = 85,
-  ["Perfect Preservatives"] = 85,
-  ["Glimmering Gemdust"] = 80,
-  ["Eversinging Dust"] = 80,
-  ["Sallow Pigment"] = 80,
-  ["Serevite Ore"] = 71,
-  ["Song Gear"] = 70,
-  ["Soul Sprocket"] = 70,
-  ["Laestrite Ore"] = 70,
-  ["Shal'dorei Silk"] = 63,
-  ["Glittering Parchment"] = 60,
-  ["Resilient Leather"] = 60,
-  ["Dark Iron Bar"] = 60,
-  ["Crystalline Glass"] = 55,
-  ["Stonehide Leather"] = 55,
-  ["Cerulean Pigment"] = 53,
-  ["Mosswool Thread"] = 52,
-  ["Spirit of Harmony"] = 52,
-  ["Tidespray Linen"] = 52,
-  ["Khaz'gorite Ore"] = 51,
-  ["Icy Blasting Primers"] = 50,
-  ["Scroll of Intellect IV"] = 50,
-  ["Scroll of Intellect VI"] = 50,
-  ["Titanium Bar"] = 50,
-  ["Arcanoweave Bolt"] = 48,
-  ["Sunfire Silk Bolt"] = 48,
-  ["Shrouded Cloth"] = 48,
-  ["Arcane Dust"] = 44,
-  ["Insulated Wiring"] = 44,
-  ["Essence of Undeath"] = 44,
-  ["Codified Azeroot"] = 43,
-  ["Sorcerous Fire"] = 41,
-  ["Lexicologist's Vellum"] = 40,
-  ["Volatile Water"] = 40,
-  ["Luminous Ink"] = 39,
-  ["Titansteel Bar"] = 38,
-  ["Sterling Alloy"] = 38,
-  ["Imbued Silkweave"] = 38,
-  ["Soul Dust"] = 38,
-  ["Dense Stone"] = 36,
-  ["Evercore"] = 35,
-  ["Aetherlume"] = 35,
-  ["Chopped Mycobloom"] = 35,
-  ["Bismuth"] = 33,
-  ["Light Parchment"] = 32,
-  ["Nylon Thread"] = 32,
-  ["Ultramarine Ink"] = 31,
-  ["Handful of Bismuth Bolts"] = 31,
-  ["Ancient Mana Potion"] = 30,
-  ["Fresh Parchment"] = 30,
-  ["Osmenite Ore"] = 30,
-  ["Alchemical Catalyst"] = 30,
-  ["Tranquil Ink"] = 30,
-  ["Tempest Hide"] = 30,
-  ["Starlight Ink"] = 30,
-  ["High-Explosive Gunpowder"] = 30,
-  ["Khorium Bar"] = 30,
-  ["Ghost Iron Bolts"] = 28,
-  ["Essence of Earth"] = 28,
-  ["Blazing Ink"] = 27,
-  ["Leylight Shard"] = 27,
-  ["Sorcerous Earth"] = 26,
-  ["Solenium Ore"] = 26,
-  ["Elementium Bar"] = 26,
-  ["Volatile Air"] = 26,
-  ["Desolate Leather"] = 26,
-  ["Dawn Crystal"] = 25,
-  ["Penumbra Thread"] = 25,
-  ["Truesilver Bar"] = 24,
-  ["Composite Flora"] = 24,
-  ["Eternium Thread"] = 24,
-  ["Glossy Stone"] = 24,
-  ["Wondrous Synergist"] = 24,
-  ["Mote of Pure Void"] = 24,
-  ["Ink of Dreams"] = 23,
-  ["Ghost Iron Bar"] = 22,
-  ["Inferno Ink"] = 22,
-  ["Heavy Borean Leather"] = 22,
-  ["Platinum Ore"] = 22,
-  ["Blackfallow Ink"] = 22,
-  ["Runic Catgut"] = 22,
-  ["Fantastic Fur"] = 22,
-  ["Bolt of Windwool Cloth"] = 22,
-  ["Coarse Leather"] = 22,
-  ["Arcanite Bar"] = 20,
-  ["Aerated Water"] = 20,
-  ["Bolt of Embersilk Cloth"] = 20,
-  ["Iridescent Water"] = 20,
-  ["Star Ruby"] = 20,
-  ["Enchanted Lightless Silk"] = 20,
-  ["Cobalt Bar"] = 20,
-  ["Yellow Dye"] = 20,
-  ["Gem Chip"] = 20,
-  ["Greater Eternal Essence"] = 20,
-  ["Bolt of Runecloth"] = 20,
-  ["Coal"] = 20,
-  ["Greater Planar Essence"] = 20,
-  ["Luminant Flux"] = 20,
-  ["Sylvan Elixir"] = 20,
-  ["Unbroken Claw"] = 20,
-  ["Heavy Savage Leather"] = 20,
-  ["Blackened Dragonscale"] = 20,
-  ["Wildercloth Bolt"] = 20,
-  ["Pallid Bone"] = 20,
-  ["Snowfall Ink"] = 19,
-  ["Handful of Fel Iron Bolts"] = 18,
-  ["Sorcerous Water"] = 18,
-  ["Crystal Vial"] = 18,
-  ["Gloaming Alloy"] = 18,
-  ["Crimson Ink"] = 17,
-  ["Temporal Crystal"] = 17,
-  ["Rune Thread"] = 16,
-  ["Volatile Earth"] = 16,
-  ["Handful of Cobalt Bolts"] = 16,
-  ["Mote of Light"] = 16,
-  ["Mote of Wild Magic"] = 16,
-  ["Ember Topaz"] = 16,
-  ["Essence of Rebirth"] = 16,
-  ["Spellweave"] = 16,
-  ["Embroidered Deep Sea Satin"] = 16,
-  ["Chaos Crystal"] = 16,
-  ["Twilight Bark"] = 15,
-  ["Meaty Haunch"] = 15,
-  ["Hardened Adamantite Bar"] = 15,
-  ["Chemical Blasting Cap"] = 15,
-  ["Sha Crystal"] = 15,
-  ["Savage Blood"] = 15,
-  ["Shadowghast Ingot"] = 15,
-  ["Gloom Dust"] = 15,
-  ["Felblight"] = 15,
-  ["Enchanted Elethium Bar"] = 15,
-  ["Primal Spirit"] = 15,
-  ["Oversized Blasting Cap"] = 15,
-  ["Primal Fire"] = 14,
-  ["Large Brilliant Shard"] = 14,
-  ["Crushed Gemstones"] = 14,
-  ["Desecrated Oil"] = 14,
-  ["Large Prismatic Shard"] = 14,
-  ["Ink of the Sea"] = 14,
-  ["Ringing Deeps Ingot"] = 14,
-  ["Handful of Obsidium Bolts"] = 14,
-  ["Magnificent Hide"] = 14,
-  ["Deepstone Oil"] = 14,
-  ["Primal Earth"] = 14,
-  ["Serene Ink"] = 13,
-  ["Flourishing Ink"] = 13,
-  ["Ethereal Ink"] = 13,
-  ["Apricate Ink"] = 13,
-  ["Aromatic Fish Oil"] = 13,
-  ["Green Tea Leaf"] = 12,
-  ["Essence of Valor"] = 12,
-  ["Thorium Bar"] = 12,
-  ["Spool of Wilderthread"] = 12,
-  ["Handful of Serevite Bolts"] = 12,
-  ["Enchanted Leather"] = 12,
-  ["Delicate Arcanite Converter"] = 12,
-  ["Sorcerous Air"] = 12,
-  ["Heavy Knothide Leather"] = 12,
-  ["Primal Molten Alloy"] = 12,
-  ["Rugged Leather"] = 12,
-  ["Savage Leather"] = 12,
-  ["Arkhana"] = 12,
-  ["Mithril Filigree"] = 12,
-  ["Ambivalent Amber"] = 12,
-  ["Mooncloth"] = 12,
-  ["Blood-Stained Bone"] = 12,
-  ["Wildercloth"] = 12,
-  ["Gyrating Gear"] = 12,
-  ["Red Dye"] = 12,
-  ["Distilled Algari Freshwater"] = 12,
-  ["Crystalline Powder"] = 11,
-  ["Sinvyr Ore"] = 11,
-  ["Eternal Crystal"] = 10,
-  ["Stranglekelp"] = 10,
-  ["Umbral Ink"] = 10,
-  ["Ginseng"] = 10,
-  ["Distilled Water"] = 10,
-  ["Durable Flux"] = 10,
-  ["Majestic Hide"] = 10,
-  ["Runic Healing Potion"] = 10,
-  ["Azeroot"] = 10,
-  ["Dense Hide"] = 10,
-  ["Codified Greenwood"] = 10,
-  ["Dark Parchment"] = 10,
-  ["Astral Glory"] = 10,
-  ["Dark Rune"] = 10,
-  ["Thalassian Songwater"] = 10,
-  ["Lava Core"] = 10,
-  ["Eternal Shadow"] = 10,
-  ["Wildfowl Breast"] = 10,
-  ["Runed Orb"] = 10,
-  ["Spiced Meat Stock"] = 10,
-  ["Golden Carp"] = 10,
-  ["Embersilk Cloth"] = 10,
-  ["Draconium Ore"] = 10,
-  ["Lichbloom"] = 10,
-  ["Loose Trigger"] = 10,
-  ["Ethereal Shard"] = 9,
-  ["Greater Cosmic Essence"] = 9,
-  ["Mercurial Adamantite"] = 9,
-  ["Black Lotus"] = 8,
-  ["Large Opal"] = 8,
-  ["Infinite Dust"] = 8,
-  ["Handful of Laestrite Bolts"] = 8,
-  ["Devilsaur Leather"] = 8,
-  ["Refulgent Crystal"] = 8,
-  ["Royal Ink"] = 8,
-  ["Chaos Orb"] = 8,
-  ["Moonshroud"] = 8,
-  ["Froststeel Tube"] = 8,
-  ["Shadow Ink"] = 8,
-  ["Lightless Silk"] = 8,
-  ["Rain Poppy"] = 8,
-  ["Overcharged Capacitor"] = 8,
-  ["Thick Clefthoof Leather"] = 8,
-  ["Frost Lotus"] = 8,
-  ["Maelstrom Crystal"] = 8,
-  ["Essence of Servitude"] = 8,
-  ["Sea Stalk"] = 8,
-  ["Mana Thistle"] = 7,
-  ["Ink of the Sky"] = 7,
-  ["Fractured Glass"] = 7,
-  ["Carving Canine"] = 7,
-  ["Whimsical Wiring"] = 7,
-  ["Living Steel"] = 7,
-  ["Hypnotic Dust"] = 6,
-  ["Carapace-Backed Hide"] = 6,
-  ["Mortal Coiled Spring"] = 6,
-  ["Gorgrond Grapes"] = 6,
-  ["Phantasmal Haunch"] = 6,
-  ["Hardened Elementium Bar"] = 6,
-  ["Vibrant Shard"] = 6,
-  ["Khorium Power Core"] = 6,
-  ["Blue Dye"] = 6,
-  ["Netherbloom"] = 6,
-  ["Glittering Glass"] = 6,
-  ["Thorium Widget"] = 6,
-  ["Felsteel Stabilizer"] = 6,
-  ["Bolt of Frostweave"] = 6,
-  ["Oxxein Ore"] = 6,
-  ["Primal Mooncloth"] = 6,
-  ["Void Crystal"] = 6,
-  ["Duskweave"] = 6,
-  ["Stormcharged Leather"] = 6,
-  ["Fiery Ink"] = 6,
-  ["Weavercloth Bolt"] = 6,
-  ["Sealing Wax"] = 6,
-  ["Pebbled Rock Salts"] = 6,
-  ["Ametrine"] = 6,
-  ["Illimited Diamond"] = 6,
-  ["Omnium Draconis"] = 6,
-  ["Eternal Earth"] = 6,
-  ["Luminous Shard"] = 6,
-  ["Highmountain Salmon"] = 5,
-  ["Mad Alchemist's Potion"] = 5,
-  ["Felwort"] = 5,
-  ["Blood of Sargeras"] = 5,
-  ["Fiery Core"] = 5,
-  ["Spiced Snapper"] = 5,
-  ["Volatile Life"] = 5,
-  ["Peerless Plumage"] = 5,
-  ["Whiptail"] = 5,
-  ["Resonant Crystal"] = 5,
-  ["Blackrock Barbecue"] = 5,
-  ["Electrified Ether"] = 5,
-  ["Salad on the Side"] = 5,
-  ["Marbled Stone"] = 5,
-  ["Telmor-Aruuna Hard Cheese"] = 5,
-  ["Master Mana Potion"] = 5,
-  ["Crazy Alchemist's Potion"] = 5,
-  ["Abyss Crystal"] = 5,
-  ["Terocone"] = 5,
-  ["Potion of Frozen Focus"] = 5,
-  ["Wild Dragon Fruit"] = 5,
-  ["Felhide"] = 5,
-  ["Ironclaw Ore"] = 5,
-  ["Umbryl"] = 5,
-  ["Gaunt Sinew"] = 5,
-  ["Energy Cell"] = 5,
-  ["Primal Mana"] = 5,
-  ["Iridescent Ravioli with Apple Sauce"] = 5,
-  ["Profaned Tinderbox"] = 4,
-  ["Amberblaze"] = 4,
-  ["Haunting Spirit"] = 4,
-  ["Blood Spirit"] = 4,
-  ["Primal Life"] = 4,
-  ["Awakened Order"] = 4,
-  ["Amber Tanning Oil"] = 4,
-  ["Bolt of Imbued Netherweave"] = 4,
-  ["Thrice-Spiced Mammoth Kabob"] = 4,
-  ["Gleaming Shard"] = 4,
-  ["Umbra Shard"] = 4,
-  ["Bolt of Netherweave"] = 4,
-  ["Cobra Scales"] = 4,
-  ["Braised Bruffalon Brisket"] = 4,
-  ["Reinforced Machine Chassis"] = 4,
-  ["Shadowcloth"] = 4,
-  ["Stunning Sapphire"] = 4,
-  ["Essence of Fire"] = 4,
-  ["Thorium Tube"] = 4,
-  ["Shock-Spring Coil"] = 4,
-  ["Fel Iron Casing"] = 4,
-  ["Skyflare Diamond"] = 4,
-  ["Porous Polishing Abrasive"] = 4,
-  ["Skystone"] = 4,
-  ["Powerful Ghostly Spellthread"] = 4,
-  ["Spellcloth"] = 4,
-  ["Awakened Earth"] = 4,
-  ["Ground Widowbloom"] = 4,
-  ["Pristine Hide"] = 4,
-  ["Eternal Air"] = 4,
-  ["Flask of Blinding Light"] = 4,
-  ["Windwool Cloth"] = 4,
-  ["Dragon's Eye"] = 4,
-  ["River Onion"] = 3,
-  ["Volatile Fire"] = 3,
-  ["Slumbering Soul Serum"] = 3,
-  ["Ground Nightshade"] = 3,
-  ["Charred Hornswog Steaks"] = 3,
-  ["Shadowruby"] = 3,
-  ["Scalewoven Hide"] = 3,
-  ["Boundless Cipher"] = 3,
-  ["Hardened Adamantite Tube"] = 3,
-  ["Golden Lotus"] = 3,
-  ["Darkflame Ink"] = 3,
-  ["Azshara's Veil"] = 3,
-  ["Flaked Sea Salt"] = 3,
-  ["Nightseye"] = 3,
-  ["Anchor Weed"] = 3,
-  ["Felweed"] = 3,
-  ["Kalidescopic Prism"] = 3,
-  ["Aerated Mana Potion"] = 3,
-  ["Eternal Fire"] = 3,
-  ["Basilisk Eggs"] = 2,
-  ["Dreamcloth"] = 2,
-  ["Shadowsong Amethyst"] = 2,
-  ["Frameless Lens"] = 2,
-  ["Viridian Charmcap"] = 2,
-  ["Living Ember"] = 2,
-  ["Goblin-Machined Piston"] = 2,
-  ["Black Dye"] = 2,
-  ["Majestic Claw"] = 2,
-  ["Sporecoated Hide"] = 2,
-  ["Skyfire Diamond"] = 2,
-  ["Eternal Life"] = 2,
-  ["Golden Pearl"] = 2,
-  ["Starlight Rose"] = 2,
-  ["Mireslush Hide"] = 2,
-  ["Arctic Fur"] = 2,
-  ["Runed Writhebark"] = 2,
-  ["Eternal Water"] = 2,
-  ["Argulite"] = 2,
-  ["Serpent's Eye"] = 2,
-  ["Fel Lotus"] = 2,
-  ["Cured Rugged Hide"] = 2,
-  ["Coreforged Skeleton Key"] = 2,
-  ["Oil of Beledar's Grace"] = 2,
-  ["Veiled Crystal"] = 2,
-  ["Glowing Titan Orb"] = 2,
-  ["Roasted Mycobloom"] = 2,
-  ["Chaotic Spinel"] = 2,
-  ["Weavercloth"] = 2,
-  ["Outsider's Provisions"] = 2,
-  ["Purple Dye"] = 2,
-  ["Earthsiege Diamond"] = 2,
-  ["Greater Pearlescent Spellthread"] = 2,
-  ["Owlseye"] = 2,
-  ["Pandemonite"] = 2,
-  ["Essence of Torment"] = 1,
-  ["Calcified Bone"] = 1,
-  ["Charged Alloy"] = 1,
-  ["Chemirine"] = 1,
-  ["Queen's Ruby"] = 1,
-  ["Rot Resistant Cauldron"] = 1,
-  ["Obsidium Skeleton Key"] = 1,
-  ["Mystic Sapphire"] = 1,
-  ["Straddling Jewel Doublet"] = 1,
-  ["Laestrite Skeleton Key"] = 1,
-  ["Straszan Mark"] = 1,
-  ["Chronocloth Bolt"] = 1,
-  ["100 Year Soy Sauce"] = 1,
-  ["Auto-Hammer"] = 1,
-  ["Azureweave Bolt"] = 1,
-  ["Majestic Fin"] = 1,
-  ["Draconic Vial"] = 1,
-  ["Awakened Air"] = 1,
-  ["Rice Flour"] = 1,
-  ["Orb of Mystery"] = 1,
-  ["Five Flights' Grimoire"] = 1,
-  ["Majestic Zircon"] = 1,
-  ["Angerseye"] = 1,
-  ["Inferno Ruby"] = 1,
-  ["Azj-Kahet Special"] = 1,
-  ["Harmonious Horticulture"] = 1,
-  ["Inverted Prism"] = 1,
-  ["Chaos Circuit"] = 1,
-  ["Mastery Taladite"] = 1,
-  ["Vial of Kaheti Oils"] = 1,
-  ["Greater Haste Taladite"] = 1,
-  ["Vibrant Emerald"] = 1,
-  ["Thunderous Hide"] = 1,
-  ["Gilded Vial"] = 1,
-  ["Scribe's Fastened Quill"] = 1
+  Thalassian Lumber	1222
+Dragonpine Lumber	637
+Fel-Touched Lumber	594
+Dornic Fir Lumber	559
+Arden Lumber	532
+Bamboo Lumber	526
+Olemba Lumber	522
+Ironwood Lumber	506
+Coldwind Lumber	480
+Darkpine Lumber	476
+Shadowmoon Lumber	451
+Ashwood Lumber	451
+Demonsteel Bar	199
+Silverleaf Thread	188
+True Iron Ore	165
+Blackrock Ore	150
+Monelite Ore	149
+Sumptuous Fur	140
+Trillium Bar	125
+Storm Silver Ore	112
+Mote of Primal Energy	108
+Obsidium Bar	97
+Duskshrouded Stone	95
+Core Alloy	91
+Soul Cipher	90
+Roseate Pigment	90
+Raw Beast Hide	90
+Radiant Shard	85
+Perfect Preservatives	85
+Glimmering Gemdust	80
+Eversinging Dust	80
+Sallow Pigment	80
+Serevite Ore	71
+Song Gear	70
+Soul Sprocket	70
+Laestrite Ore	70
+Shal'dorei Silk	63
+Glittering Parchment	60
+Resilient Leather	60
+Dark Iron Bar	60
+Crystalline Glass	55
+Stonehide Leather	55
+Cerulean Pigment	53
+Mosswool Thread	52
+Spirit of Harmony	52
+Tidespray Linen	52
+Khaz'gorite Ore	51
+Icy Blasting Primers	50
+Scroll of Intellect IV	50
+Scroll of Intellect VI	50
+Titanium Bar	50
+Arcanoweave Bolt	48
+Sunfire Silk Bolt	48
+Shrouded Cloth	48
+Arcane Dust	44
+Insulated Wiring	44
+Essence of Undeath	44
+Codified Azeroot	43
+Sorcerous Fire	41
+Lexicologist's Vellum	40
+Volatile Water	40
+Luminous Ink	39
+Titansteel Bar	38
+Sterling Alloy	38
+Imbued Silkweave	38
+Soul Dust	38
+Dense Stone	36
+Evercore	35
+Aetherlume	35
+Chopped Mycobloom	35
+Bismuth	33
+Light Parchment	32
+Nylon Thread	32
+Ultramarine Ink	31
+Handful of Bismuth Bolts	31
+Ancient Mana Potion	30
+Fresh Parchment	30
+Osmenite Ore	30
+Alchemical Catalyst	30
+Tranquil Ink	30
+Tempest Hide	30
+Starlight Ink	30
+High-Explosive Gunpowder	30
+Khorium Bar	30
+Ghost Iron Bolts	28
+Essence of Earth	28
+Blazing Ink	27
+Leylight Shard	27
+Sorcerous Earth	26
+Solenium Ore	26
+Elementium Bar	26
+Volatile Air	26
+Desolate Leather	26
+Dawn Crystal	25
+Penumbra Thread	25
+Truesilver Bar	24
+Composite Flora	24
+Eternium Thread	24
+Glossy Stone	24
+Wondrous Synergist	24
+Mote of Pure Void	24
+Ink of Dreams	23
+Ghost Iron Bar	22
+Inferno Ink	22
+Heavy Borean Leather	22
+Platinum Ore	22
+Blackfallow Ink	22
+Runic Catgut	22
+Fantastic Fur	22
+Bolt of Windwool Cloth	22
+Coarse Leather	22
+Arcanite Bar	20
+Aerated Water	20
+Bolt of Embersilk Cloth	20
+Iridescent Water	20
+Star Ruby	20
+Enchanted Lightless Silk	20
+Cobalt Bar	20
+Yellow Dye	20
+Gem Chip	20
+Greater Eternal Essence	20
+Bolt of Runecloth	20
+Coal	20
+Greater Planar Essence	20
+Luminant Flux	20
+Sylvan Elixir	20
+Unbroken Claw	20
+Heavy Savage Leather	20
+Blackened Dragonscale	20
+Wildercloth Bolt	20
+Pallid Bone	20
+Snowfall Ink	19
+Handful of Fel Iron Bolts	18
+Sorcerous Water	18
+Crystal Vial	18
+Gloaming Alloy	18
+Crimson Ink	17
+Temporal Crystal	17
+Rune Thread	16
+Volatile Earth	16
+Handful of Cobalt Bolts	16
+Mote of Light	16
+Mote of Wild Magic	16
+Ember Topaz	16
+Essence of Rebirth	16
+Spellweave	16
+Embroidered Deep Sea Satin	16
+Chaos Crystal	16
+Twilight Bark	15
+Meaty Haunch	15
+Hardened Adamantite Bar	15
+Chemical Blasting Cap	15
+Sha Crystal	15
+Savage Blood	15
+Shadowghast Ingot	15
+Gloom Dust	15
+Felblight	15
+Enchanted Elethium Bar	15
+Primal Spirit	15
+Oversized Blasting Cap	15
+Primal Fire	14
+Large Brilliant Shard	14
+Crushed Gemstones	14
+Desecrated Oil	14
+Large Prismatic Shard	14
+Ink of the Sea	14
+Ringing Deeps Ingot	14
+Handful of Obsidium Bolts	14
+Magnificent Hide	14
+Deepstone Oil	14
+Primal Earth	14
+Serene Ink	13
+Flourishing Ink	13
+Ethereal Ink	13
+Apricate Ink	13
+Aromatic Fish Oil	13
+Green Tea Leaf	12
+Essence of Valor	12
+Thorium Bar	12
+Spool of Wilderthread	12
+Handful of Serevite Bolts	12
+Enchanted Leather	12
+Delicate Arcanite Converter	12
+Sorcerous Air	12
+Heavy Knothide Leather	12
+Primal Molten Alloy	12
+Rugged Leather	12
+Savage Leather	12
+Arkhana	12
+Mithril Filigree	12
+Ambivalent Amber	12
+Mooncloth	12
+Blood-Stained Bone	12
+Wildercloth	12
+Gyrating Gear	12
+Red Dye	12
+Distilled Algari Freshwater	12
+Crystalline Powder	11
+Sinvyr Ore	11
+Eternal Crystal	10
+Stranglekelp	10
+Umbral Ink	10
+Ginseng	10
+Distilled Water	10
+Durable Flux	10
+Majestic Hide	10
+Runic Healing Potion	10
+Azeroot	10
+Dense Hide	10
+Codified Greenwood	10
+Dark Parchment	10
+Astral Glory	10
+Dark Rune	10
+Thalassian Songwater	10
+Lava Core	10
+Eternal Shadow	10
+Wildfowl Breast	10
+Runed Orb	10
+Spiced Meat Stock	10
+Golden Carp	10
+Embersilk Cloth	10
+Draconium Ore	10
+Lichbloom	10
+Loose Trigger	10
+Ethereal Shard	9
+Greater Cosmic Essence	9
+Mercurial Adamantite	9
+Black Lotus	8
+Large Opal	8
+Infinite Dust	8
+Handful of Laestrite Bolts	8
+Devilsaur Leather	8
+Refulgent Crystal	8
+Royal Ink	8
+Chaos Orb	8
+Moonshroud	8
+Froststeel Tube	8
+Shadow Ink	8
+Lightless Silk	8
+Rain Poppy	8
+Overcharged Capacitor	8
+Thick Clefthoof Leather	8
+Frost Lotus	8
+Maelstrom Crystal	8
+Essence of Servitude	8
+Sea Stalk	8
+Mana Thistle	7
+Ink of the Sky	7
+Fractured Glass	7
+Carving Canine	7
+Whimsical Wiring	7
+Living Steel	7
+Hypnotic Dust	6
+Carapace-Backed Hide	6
+Mortal Coiled Spring	6
+Gorgrond Grapes	6
+Phantasmal Haunch	6
+Hardened Elementium Bar	6
+Vibrant Shard	6
+Khorium Power Core	6
+Blue Dye	6
+Netherbloom	6
+Glittering Glass	6
+Thorium Widget	6
+Felsteel Stabilizer	6
+Bolt of Frostweave	6
+Oxxein Ore	6
+Primal Mooncloth	6
+Void Crystal	6
+Duskweave	6
+Stormcharged Leather	6
+Fiery Ink	6
+Weavercloth Bolt	6
+Sealing Wax	6
+Pebbled Rock Salts	6
+Ametrine	6
+Illimited Diamond	6
+Omnium Draconis	6
+Eternal Earth	6
+Luminous Shard	6
+Highmountain Salmon	5
+Mad Alchemist's Potion	5
+Felwort	5
+Blood of Sargeras	5
+Fiery Core	5
+Spiced Snapper	5
+Volatile Life	5
+Peerless Plumage	5
+Whiptail	5
+Resonant Crystal	5
+Blackrock Barbecue	5
+Electrified Ether	5
+Salad on the Side	5
+Marbled Stone	5
+Telmor-Aruuna Hard Cheese	5
+Master Mana Potion	5
+Crazy Alchemist's Potion	5
+Abyss Crystal	5
+Terocone	5
+Potion of Frozen Focus	5
+Wild Dragon Fruit	5
+Felhide	5
+Ironclaw Ore	5
+Umbryl	5
+Gaunt Sinew	5
+Energy Cell	5
+Primal Mana	5
+Iridescent Ravioli with Apple Sauce	5
+Profaned Tinderbox	4
+Amberblaze	4
+Haunting Spirit	4
+Blood Spirit	4
+Primal Life	4
+Awakened Order	4
+Amber Tanning Oil	4
+Bolt of Imbued Netherweave	4
+Thrice-Spiced Mammoth Kabob	4
+Gleaming Shard	4
+Umbra Shard	4
+Bolt of Netherweave	4
+Cobra Scales	4
+Braised Bruffalon Brisket	4
+Reinforced Machine Chassis	4
+Shadowcloth	4
+Stunning Sapphire	4
+Essence of Fire	4
+Thorium Tube	4
+Shock-Spring Coil	4
+Fel Iron Casing	4
+Skyflare Diamond	4
+Porous Polishing Abrasive	4
+Skystone	4
+Powerful Ghostly Spellthread	4
+Spellcloth	4
+Awakened Earth	4
+Ground Widowbloom	4
+Pristine Hide	4
+Eternal Air	4
+Flask of Blinding Light	4
+Windwool Cloth	4
+Dragon's Eye	4
+River Onion	3
+Volatile Fire	3
+Slumbering Soul Serum	3
+Ground Nightshade	3
+Charred Hornswog Steaks	3
+Shadowruby	3
+Scalewoven Hide	3
+Boundless Cipher	3
+Hardened Adamantite Tube	3
+Golden Lotus	3
+Darkflame Ink	3
+Azshara's Veil	3
+Flaked Sea Salt	3
+Nightseye	3
+Anchor Weed	3
+Felweed	3
+Kalidescopic Prism	3
+Aerated Mana Potion	3
+Eternal Fire	3
+Basilisk Eggs	2
+Dreamcloth	2
+Shadowsong Amethyst	2
+Frameless Lens	2
+Viridian Charmcap	2
+Living Ember	2
+Goblin-Machined Piston	2
+Black Dye	2
+Majestic Claw	2
+Sporecoated Hide	2
+Skyfire Diamond	2
+Eternal Life	2
+Golden Pearl	2
+Starlight Rose	2
+Mireslush Hide	2
+Arctic Fur	2
+Runed Writhebark	2
+Eternal Water	2
+Argulite	2
+Serpent's Eye	2
+Fel Lotus	2
+Cured Rugged Hide	2
+Coreforged Skeleton Key	2
+Oil of Beledar's Grace	2
+Veiled Crystal	2
+Glowing Titan Orb	2
+Roasted Mycobloom	2
+Chaotic Spinel	2
+Weavercloth	2
+Outsider's Provisions	2
+Purple Dye	2
+Earthsiege Diamond	2
+Greater Pearlescent Spellthread	2
+Owlseye	2
+Pandemonite	2
+Essence of Torment	1
+Calcified Bone	1
+Charged Alloy	1
+Chemirine	1
+Queen's Ruby	1
+Rot Resistant Cauldron	1
+Obsidium Skeleton Key	1
+Mystic Sapphire	1
+Straddling Jewel Doublet	1
+Laestrite Skeleton Key	1
+Straszan Mark	1
+Chronocloth Bolt	1
+100 Year Soy Sauce	1
+Auto-Hammer	1
+Azureweave Bolt	1
+Majestic Fin	1
+Draconic Vial	1
+Awakened Air	1
+Rice Flour	1
+Orb of Mystery	1
+Five Flights' Grimoire	1
+Majestic Zircon	1
+Angerseye	1
+Inferno Ruby	1
+Azj-Kahet Special	1
+Harmonious Horticulture	1
+Inverted Prism	1
+Chaos Circuit	1
+Mastery Taladite	1
+Vial of Kaheti Oils	1
+Greater Haste Taladite	1
+Vibrant Emerald	1
+Thunderous Hide	1
+Gilded Vial	1
+Scribe's Fastened Quill	1
+}
+
 }
